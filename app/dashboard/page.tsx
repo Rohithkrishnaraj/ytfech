@@ -96,7 +96,7 @@ export default function DashboardPage() {
   const [preferences, setPreferences] = useState<UserPreferences>({
     theme: 'light',
     autoplay: true,
-    refreshInterval: 5,
+    refreshInterval: 30,
     videosPerPage: 12,
   });
   const [lastUpdated, setLastUpdated] = useState<string>('');
